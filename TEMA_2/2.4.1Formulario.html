@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta UTF8>
+        <meta charset='UTF-8'>
         <title>Fomulario</title>
     </head>
     <body>
@@ -10,15 +10,30 @@
                 <legend>Personajes</legend>
                 <label>Superheroe favorito</label>
                 <br>
-                <input list="hero" id="hero" placeholder="elige Superheroe"/>
+                <input list="hero" placeholder="elige Superheroe" name="hero"/>
+                <br>
+                <label>Color</label>
+                <br>
+                <input type="color" name="color"/>
             </fieldset>
+            <fieldset>
+                <legend>Datos de Usuario</legend>
+                <label>Nombre</label>
+                <br>
+                <input type="text" name="name" placeholder="Pon tu nombre aquí"/>
+                <br>
+                <label>Teléfono</label>
+                <br>
+                <input type="number" name="phone" placeholder="Nº.telefonico: xxx xx xx xx"/>
+            </fieldset>
+            <input type="submit" value="Enviar"/>
         </form>
     </body>
 
     <datalist id="hero">
-        <option value="Iroman" label=""></option>
-        <option value="" label=""></option>
-        <option value="" label=""></option>
-        <option value="" label=""></option>
+        <option label="Iroman" value="Iroman" ></option>
+        <option value="Espiderman" label="Espidereman"></option>
+        <option value="Thor" label="Thor"></option>
+        <option value="Wonderwoman" label="Wonderwoman"></option>
     </datalist>
 </html>
