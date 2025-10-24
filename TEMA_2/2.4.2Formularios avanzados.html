@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Fomulario</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personajes</legend>
+            <label>Superheroe favorito</label>
+            <br>
+            <input list="hero" placeholder="elige Superheroe" name="hero" />
+            <datalist id="hero">
+                <option label="Iroman" value="Iroman"></option>
+                <option value="Espiderman" label="Espidereman"></option>
+                <option value="Thor" label="Thor"></option>
+                <option value="Wonderwoman" label="Wonderwoman"></option>
+            </datalist>
+            <br>
+            <label>Color</label>
+            <br>
+            <input type="color" name="color" />
+        </fieldset>
+        <fieldset>
+            <legend>Datos de Usuario</legend>
+            <label>Nombre</label>
+            <br>
+            <input type="text" name="name" placeholder="Pon tu nombre aquí" />
+            <br>
+            <label>Teléfono</label>
+            <br>
+            <input type="number" name="phone" placeholder="Nº.telefonico: xxx xx xx xx" />
+        </fieldset>
+        <fieldset>
+            <legend>Seleciona forma de contacto preferida</legend>
+            <label>Email</label>
+            <input type="radio" name="radio" />
+            <label>Telefonico</label>
+            <input type="radio" name="radio" />
+            <label>Carta</label>
+            <input type="radio" name="radio" />
+        </fieldset>
+        <fieldset>
+            <legend>Elige tu asignatura favorita</legend>
+            <input type="checkbox" name="chk.box" />
+            <label>aplicaciones Web</label>
+            <br>
+            <input type="checkbox" name="chk.box" />
+            <label>Seguridad</label>
+        </fieldset>
+        <fieldset>
+            <legend>Semana</legend>
+            <label></label>
+            <input />
+            <label>A</label>
+            <input />
+            <label>S</label>
+            <input />
+            <label>D</label>
+        </fieldset>
+        <fieldset>
+            <legend>Semana</legend>
+            <label></label>
+            <input />
+            <label>A</label>
+            <input />
+            <label>S</label>
+            <input />
+            <label>D</label>
+        </fieldset>
+        <fieldset>
+            <legend>Semana</legend>
+            <label></label>
+            <input />
+            <label>A</label>
+            <input />
+            <label>S</label>
+            <input />
+            <label>D</label>
+        </fieldset>
+        <fieldset>
+            <legend>Semana</legend>
+            <label>Con</label>
+            <input type="password" name="password"/>
+        </fieldset>
+        <fieldset>
+            <legend>Nivel de la Musica</legend>
+            <label for="file">
+                <img src="../img/3745-removebg-preview.png" alt="Subir archivo" width="20">
+            </label>
+            <input  name="file" type="file" id="file" style="display: none;">
+            <input type="range" name="range"/>
+        </fieldset>
+        <fieldset>
+            <legend>fecha</legend>
+            <label>fecha de hoy</label>
+            <input type="date" name="date"/>
+        </fieldset>
+        <input type="submit" value="Enviar" />
+        <button type="reset">Resetear</button>
+    </form>
+</body>
+
+
+</html>
