@@ -1,0 +1,23 @@
+h1 {
+    color: aquamarine;
+}
+
+h2 {
+    color: darkmagenta;
+}
+
+code {
+    color: blue;
+    font-weight: bold;
+}
+
+#pan {
+    color: red;
+}
+
+#pan2 {
+    font-style: italic;
+}
+.bold{
+    font-weight:bold ;
+}
