@@ -1,0 +1,78 @@
+a:hover {
+            color: rgb(70, 247, 0);
+            text-decoration: underline;
+        }
+
+        ul {
+            color: white;
+            font-size: medium;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        caption {
+            text-align: center;
+            background-color: yellow;
+            font-size: xx-large;
+            font-weight: bold;
+            font-style: italic;
+
+        }
+
+        th {
+            text-align: center;
+            color: rgb(255, 0, 0);
+        }
+
+        td {
+            text-align: center;
+        }
+
+        .hour {
+            font-weight: bold;
+            color: rgb(0, 174, 255);
+        }
+
+        .sor {
+            color: rgb(0, 132, 255);
+        }
+
+        .serv {
+            color: rgb(2, 161, 2);
+        }
+
+        .emple {
+            color: rgb(255, 251, 0);
+        }
+
+        .ap {
+            color: rgb(243, 134, 9);
+        }
+
+        .ingles {
+            color: rgb(255, 0, 0);
+        }
+
+        .python {
+            color: rgb(0, 238, 255);
+        }
+
+        .seguridad {
+            color: rgb(189, 3, 158);
+        }
+
+        .soste {
+            color: rgb(2, 204, 79);
+        }
+
+        .recre {
+            background-color: rgb(238, 255, 0);
+            font-weight: bold;
+        }
