@@ -1,78 +1,89 @@
 a:hover {
-            color: rgb(70, 247, 0);
-            text-decoration: underline;
-        }
+    color: rgb(70, 247, 0);
+    text-decoration: underline;
+}
 
-        ul {
-            color: white;
-            font-size: medium;
-        }
+ul {
+    color: white;
+    font-size: medium;
+}
 
-        body {
-            background-color: black;
-        }
+body {
+    background-color: rgb(255, 255, 255);
+}
 
-        table {
-            margin-left: auto;
-            margin-right: auto;
-        }
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
 
-        caption {
-            text-align: center;
-            background-color: yellow;
-            font-size: xx-large;
-            font-weight: bold;
-            font-style: italic;
+caption {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 100px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 10px;
+    border: 5px outset;
+    border-color: aqua;
+}
 
-        }
+th,
+td {
+    text-align: center;
+    width: 10px;
+    margin: 2px;
+    padding: 2px;
+    border: 5px outset;
+    border: none;
+    background-color: cornflowerblue;
+    color: black;
+}
 
-        th {
-            text-align: center;
-            color: rgb(255, 0, 0);
-        }
+.hour {
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+}
 
-        td {
-            text-align: center;
-        }
+.sor {
+    color: rgb(0, 132, 255);
+}
 
-        .hour {
-            font-weight: bold;
-            color: rgb(0, 174, 255);
-        }
+.serv {
+    color: rgb(2, 161, 2);
+}
 
-        .sor {
-            color: rgb(0, 132, 255);
-        }
+.emple {
+    color: rgb(255, 251, 0);
+}
 
-        .serv {
-            color: rgb(2, 161, 2);
-        }
+.ap {
+    color: rgb(243, 134, 9);
+}
 
-        .emple {
-            color: rgb(255, 251, 0);
-        }
+.ingles {
+    color: rgb(255, 0, 0);
+}
 
-        .ap {
-            color: rgb(243, 134, 9);
-        }
+.python {
+    color: rgb(0, 238, 255);
+}
 
-        .ingles {
-            color: rgb(255, 0, 0);
-        }
+.seguridad {
+    color: rgb(189, 3, 158);
+}
 
-        .python {
-            color: rgb(0, 238, 255);
-        }
+.soste {
+    color: rgb(2, 204, 79);
+}
 
-        .seguridad {
-            color: rgb(189, 3, 158);
-        }
-
-        .soste {
-            color: rgb(2, 204, 79);
-        }
-
-        .recre {
-            background-color: rgb(238, 255, 0);
-            font-weight: bold;
-        }
+.recre {
+    background-color: rgb(238, 255, 0);
+    font-weight: bold;
+}
