@@ -1,0 +1,49 @@
+.menu-caja div{
+    background-color: beige;
+    border: 1px solid brown;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.menu-caja{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+}
+#menu-1 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    align-items: flex-start;
+    list-style-type: none;
+    background-color:green;
+    border: 1px solid black;
+}
+#menu-1 ul li{
+    background-color: grey;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+#menu-1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menu-1 ul li a:visited{
+    text-decoration: none;
+    color:greenyellow;
+}
+#menu-1 ul li a:hover{
+    text-decoration: none;
+    color:aqua;
+}
+
+
