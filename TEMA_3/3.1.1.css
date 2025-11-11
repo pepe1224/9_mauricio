@@ -18,6 +18,13 @@ code {
 #pan2 {
     font-style: italic;
 }
-.bold{
+.bold span{
     font-weight:bold ;
+}
+.bold span span{
+    color:gray;
+}
+
+.bold span span span{
+    color:green;
 }
