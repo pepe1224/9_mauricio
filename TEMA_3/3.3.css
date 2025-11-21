@@ -57,14 +57,10 @@ h3 {
   text-transform: uppercase;
 }
 
-.studies {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-template-areas:
-    'P'
-    'P';
-  height: 0px;
+.studies h4 p {
+display: flex;
+justify-content: flex-end;
+flex-direction: row;
 }
 
 h4 {
@@ -135,7 +131,6 @@ a .fab {
   flex: 0 0 50%;
   max-width: 50%;
 }
-
 .skills .column ul,
 ul.job-description {
   list-style-type: none;
