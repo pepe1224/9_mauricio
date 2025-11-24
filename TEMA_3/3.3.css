@@ -58,9 +58,9 @@ h3 {
 }
 
 .studies h4 p {
-display: flex;
-justify-content: flex-end;
-flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
 }
 
 h4 {
@@ -131,6 +131,7 @@ a .fab {
   flex: 0 0 50%;
   max-width: 50%;
 }
+
 .skills .column ul,
 ul.job-description {
   list-style-type: none;
@@ -223,4 +224,14 @@ nav li.active {
 
 nav li.active:hover {
   cursor: default;
+}
+
+ul>li {
+  list-style-type: none;
+}
+
+.div_1 ul li:before {
+  content: "►";
+  padding-right: 0.5em;
+  color: #509e98;
 }
